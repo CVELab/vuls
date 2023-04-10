@@ -10,9 +10,9 @@ import (
 
 	"github.com/google/subcommands"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/logging"
-	"github.com/future-architect/vuls/scanner"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/logging"
+	"github.com/cvelab/vuls/scanner"
 )
 
 // ConfigtestCmd is Subcommand

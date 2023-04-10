@@ -3,7 +3,7 @@ package util
 import (
 	"testing"
 
-	"github.com/future-architect/vuls/config"
+	"github.com/cvelab/vuls/config"
 )
 
 func TestUrlJoin(t *testing.T) {

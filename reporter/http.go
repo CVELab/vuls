@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/models"
 	"golang.org/x/xerrors"
 )
 

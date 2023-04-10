@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/reporter"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/reporter"
 	"github.com/google/subcommands"
 )
 

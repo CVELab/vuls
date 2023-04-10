@@ -3,8 +3,8 @@ package parser
 import (
 	"encoding/json"
 
-	v2 "github.com/future-architect/vuls/contrib/trivy/parser/v2"
-	"github.com/future-architect/vuls/models"
+	v2 "github.com/cvelab/vuls/contrib/trivy/parser/v2"
+	"github.com/cvelab/vuls/models"
 	"golang.org/x/xerrors"
 )
 

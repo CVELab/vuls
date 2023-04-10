@@ -8,8 +8,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/future-architect/vuls/constant"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/constant"
+	"github.com/cvelab/vuls/models"
 	ovalmodels "github.com/vulsio/goval-dictionary/models"
 )
 

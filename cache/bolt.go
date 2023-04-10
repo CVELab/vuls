@@ -7,8 +7,8 @@ import (
 	bolt "go.etcd.io/bbolt"
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/logging"
-	"github.com/future-architect/vuls/util"
+	"github.com/cvelab/vuls/logging"
+	"github.com/cvelab/vuls/util"
 )
 
 // Bolt holds a pointer of bolt.DB

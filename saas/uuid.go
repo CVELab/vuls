@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/BurntSushi/toml"
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/logging"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/logging"
+	"github.com/cvelab/vuls/models"
 	"github.com/hashicorp/go-uuid"
 	"golang.org/x/xerrors"
 )

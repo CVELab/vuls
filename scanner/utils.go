@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/future-architect/vuls/constant"
-	"github.com/future-architect/vuls/logging"
-	"github.com/future-architect/vuls/models"
-	"github.com/future-architect/vuls/reporter"
+	"github.com/cvelab/vuls/constant"
+	"github.com/cvelab/vuls/logging"
+	"github.com/cvelab/vuls/models"
+	"github.com/cvelab/vuls/reporter"
 	"golang.org/x/xerrors"
 )
 

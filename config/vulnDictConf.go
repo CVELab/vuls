@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/asaskevich/govalidator"
-	"github.com/future-architect/vuls/logging"
+	"github.com/cvelab/vuls/logging"
 	"github.com/parnurzeal/gorequest"
 	"golang.org/x/xerrors"
 )

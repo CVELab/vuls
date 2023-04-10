@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/future-architect/vuls/config"
+	"github.com/cvelab/vuls/config"
 )
 
 // NewCmdVersion ...

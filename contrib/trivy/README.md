@@ -7,7 +7,7 @@
 ## Installation
 
 ```
-git clone https://github.com/future-architect/vuls.git
+git clone https://github.com/cvelab/vuls.git
 make build-trivy-to-vuls
 ```
 

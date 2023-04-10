@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/future-architect/vuls/constant"
+	. "github.com/cvelab/vuls/constant"
 )
 
 func TestEOL_IsStandardSupportEnded(t *testing.T) {

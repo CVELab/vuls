@@ -11,7 +11,7 @@ import (
 	"github.com/knqyf263/go-cpe/naming"
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/constant"
+	"github.com/cvelab/vuls/constant"
 )
 
 // TOMLLoader loads config

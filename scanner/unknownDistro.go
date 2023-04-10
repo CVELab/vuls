@@ -1,6 +1,6 @@
 package scanner
 
-import "github.com/future-architect/vuls/models"
+import "github.com/cvelab/vuls/models"
 
 // inherit OsTypeInterface
 type unknown struct {

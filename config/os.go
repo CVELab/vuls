@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/future-architect/vuls/constant"
+	"github.com/cvelab/vuls/constant"
 )
 
 // EOL has End-of-Life information

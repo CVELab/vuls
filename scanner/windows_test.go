@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/models"
 	"golang.org/x/exp/slices"
 )
 

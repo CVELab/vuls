@@ -6,11 +6,11 @@ import (
 	"net"
 	"strings"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/constant"
-	"github.com/future-architect/vuls/logging"
-	"github.com/future-architect/vuls/models"
-	"github.com/future-architect/vuls/util"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/constant"
+	"github.com/cvelab/vuls/logging"
+	"github.com/cvelab/vuls/models"
+	"github.com/cvelab/vuls/util"
 	"golang.org/x/xerrors"
 )
 
@@ -167,7 +167,7 @@ func (o *bsd) rebootRequired() (bool, error) {
 }
 
 func (o *bsd) scanInstalledPackages() (models.Packages, error) {
-	// https://github.com/future-architect/vuls/issues/1042
+	// https://github.com/cvelab/vuls/issues/1042
 	cmd := util.PrependProxyEnv("pkg info")
 	r := o.exec(cmd, noSudo)
 	if !r.isSuccess() {

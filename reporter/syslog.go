@@ -9,8 +9,8 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/models"
 )
 
 // SyslogWriter send report to syslog

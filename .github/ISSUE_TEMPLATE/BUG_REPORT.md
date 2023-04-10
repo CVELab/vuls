@@ -34,7 +34,7 @@ $ vuls -v
 
 or
 
-$ cd $GOPATH/src/github.com/future-architect/vuls 
+$ cd $GOPATH/src/github.com/cvelab/vuls 
 $ git rev-parse --short HEAD 
 
 * config.toml:

@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/constant"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/constant"
 )
 
 func TestIsDisplayUpdatableNum(t *testing.T) {

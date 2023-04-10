@@ -12,8 +12,8 @@ import (
 	"github.com/aquasecurity/trivy/pkg/log"
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/logging"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/logging"
+	"github.com/cvelab/vuls/models"
 )
 
 // DetectLibsCves fills LibraryScanner information

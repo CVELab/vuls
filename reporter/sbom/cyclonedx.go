@@ -13,8 +13,8 @@ import (
 	"golang.org/x/exp/maps"
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/constant"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/constant"
+	"github.com/cvelab/vuls/models"
 )
 
 // GenerateCycloneDX generates a string in CycloneDX format
@@ -38,7 +38,7 @@ func cdxMetadata(result models.ScanResult) *cdx.Metadata {
 		Timestamp: result.ReportedAt.Format(time.RFC3339),
 		Tools: &[]cdx.Tool{
 			{
-				Vendor:  "future-architect",
+				Vendor:  "cvelab",
 				Name:    "vuls",
 				Version: fmt.Sprintf("%s-%s", result.ReportedVersion, result.ReportedRevision),
 			},
@@ -112,7 +112,7 @@ func cdxComponents(result models.ScanResult, metaBomRef string) (*[]cdx.Componen
 func osToCdxComponent(family, release, runningKernelRelease, runningKernelVersion string) cdx.Component {
 	props := []cdx.Property{
 		{
-			Name:  "future-architect:vuls:Type",
+			Name:  "cvelab:vuls:Type",
 			Value: "Package",
 		},
 	}
@@ -171,19 +171,19 @@ func ospkgToCdxComponents(family, release string, runningKernel models.Kernel, b
 		if p, ok := binToSrc[pack.Name]; ok {
 			if p.name != "" {
 				props = append(props, cdx.Property{
-					Name:  "future-architect:vuls:SrcName",
+					Name:  "cvelab:vuls:SrcName",
 					Value: p.name,
 				})
 			}
 			if p.version != "" {
 				props = append(props, cdx.Property{
-					Name:  "future-architect:vuls:SrcVersion",
+					Name:  "cvelab:vuls:SrcVersion",
 					Value: p.version,
 				})
 			}
 			if p.arch != "" {
 				props = append(props, cdx.Property{
-					Name:  "future-architect:vuls:SrcArch",
+					Name:  "cvelab:vuls:SrcArch",
 					Value: p.arch,
 				})
 			}
@@ -222,7 +222,7 @@ func cpeToCdxComponents(scannedCves models.VulnInfos) []cdx.Component {
 			Name:   "CPEs",
 			Properties: &[]cdx.Property{
 				{
-					Name:  "future-architect:vuls:Type",
+					Name:  "cvelab:vuls:Type",
 					Value: "CPE",
 				},
 			},
@@ -248,7 +248,7 @@ func libpkgToCdxComponents(libscanner models.LibraryScanner, libpkgToPURL map[st
 			Name:   libscanner.LockfilePath,
 			Properties: &[]cdx.Property{
 				{
-					Name:  "future-architect:vuls:Type",
+					Name:  "cvelab:vuls:Type",
 					Value: libscanner.Type,
 				},
 			},
@@ -279,7 +279,7 @@ func ghpkgToCdxComponents(m models.DependencyGraphManifest, ghpkgToPURL map[stri
 			Name:   m.BlobPath,
 			Properties: &[]cdx.Property{
 				{
-					Name:  "future-architect:vuls:Type",
+					Name:  "cvelab:vuls:Type",
 					Value: m.Ecosystem(),
 				},
 			},
@@ -314,7 +314,7 @@ func wppkgToCdxComponents(wppkgs models.WordPressPackages, wppkgToPURL map[strin
 			Name:   "wordpress",
 			Properties: &[]cdx.Property{
 				{
-					Name:  "future-architect:vuls:Type",
+					Name:  "cvelab:vuls:Type",
 					Value: "WordPress",
 				},
 			},

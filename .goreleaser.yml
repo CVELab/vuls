@@ -3,7 +3,7 @@ env:
   - GO111MODULE=on
 release:
   github:
-    owner: future-architect
+    owner: cvelab
     name: vuls
 builds:
 - id: vuls-linux-amd64
@@ -18,7 +18,7 @@ builds:
   flags:
   - -a
   ldflags: 
-  - -s -w -X github.com/future-architect/vuls/config.Version={{.Version}} -X github.com/future-architect/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
+  - -s -w -X github.com/cvelab/vuls/config.Version={{.Version}} -X github.com/cvelab/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
   binary: vuls
 
 - id: vuls-linux-arm64
@@ -33,7 +33,7 @@ builds:
   flags:
   - -a
   ldflags: 
-  - -s -w -X github.com/future-architect/vuls/config.Version={{.Version}} -X github.com/future-architect/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
+  - -s -w -X github.com/cvelab/vuls/config.Version={{.Version}} -X github.com/cvelab/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
   binary: vuls
 
 - id: vuls-windows-amd64
@@ -48,7 +48,7 @@ builds:
   flags:
   - -a
   ldflags: 
-  - -s -w -X github.com/future-architect/vuls/config.Version={{.Version}} -X github.com/future-architect/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
+  - -s -w -X github.com/cvelab/vuls/config.Version={{.Version}} -X github.com/cvelab/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
   binary: vuls
 
 - id: vuls-windows-arm64
@@ -63,7 +63,7 @@ builds:
   flags:
   - -a
   ldflags: 
-  - -s -w -X github.com/future-architect/vuls/config.Version={{.Version}} -X github.com/future-architect/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
+  - -s -w -X github.com/cvelab/vuls/config.Version={{.Version}} -X github.com/cvelab/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
   binary: vuls
 
 - id: vuls-scanner
@@ -83,7 +83,7 @@ builds:
   tags:
   - scanner
   ldflags: 
-  - -s -w -X github.com/future-architect/vuls/config.Version={{.Version}} -X github.com/future-architect/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
+  - -s -w -X github.com/cvelab/vuls/config.Version={{.Version}} -X github.com/cvelab/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
   binary: vuls-scanner
 
 - id: trivy-to-vuls
@@ -101,7 +101,7 @@ builds:
   - scanner
   main: ./contrib/trivy/cmd/main.go
   ldflags: 
-  - -s -w -X github.com/future-architect/vuls/config.Version={{.Version}} -X github.com/future-architect/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
+  - -s -w -X github.com/cvelab/vuls/config.Version={{.Version}} -X github.com/cvelab/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
   binary: trivy-to-vuls
 
 - id: future-vuls
@@ -120,7 +120,7 @@ builds:
   tags:
   - scanner
   ldflags: 
-  - -s -w -X github.com/future-architect/vuls/config.Version={{.Version}} -X github.com/future-architect/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
+  - -s -w -X github.com/cvelab/vuls/config.Version={{.Version}} -X github.com/cvelab/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
   main: ./contrib/future-vuls/cmd/main.go
   binary: future-vuls
 
@@ -140,7 +140,7 @@ builds:
   tags:
   - scanner
   ldflags: 
-  - -s -w -X github.com/future-architect/vuls/config.Version={{.Version}} -X github.com/future-architect/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
+  - -s -w -X github.com/cvelab/vuls/config.Version={{.Version}} -X github.com/cvelab/vuls/config.Revision={{.Commit}}-{{ .CommitDate }}
   main: ./contrib/snmp2cpe/cmd/main.go
   binary: snmp2cpe
 

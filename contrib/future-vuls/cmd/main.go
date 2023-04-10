@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/models"
-	"github.com/future-architect/vuls/saas"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/models"
+	"github.com/cvelab/vuls/saas"
 	"github.com/spf13/cobra"
 )
 

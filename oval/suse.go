@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/logging"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/logging"
+	"github.com/cvelab/vuls/models"
 	ovaldb "github.com/vulsio/goval-dictionary/db"
 	ovalmodels "github.com/vulsio/goval-dictionary/models"
 )

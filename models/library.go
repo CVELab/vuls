@@ -8,7 +8,7 @@ import (
 	"github.com/aquasecurity/trivy/pkg/types"
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/logging"
+	"github.com/cvelab/vuls/logging"
 )
 
 // LibraryScanners is an array of LibraryScanner

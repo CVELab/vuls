@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/future-architect/vuls/contrib/snmp2cpe/pkg/snmp"
+	"github.com/cvelab/vuls/contrib/snmp2cpe/pkg/snmp"
 )
 
 // SNMPv1Options ...

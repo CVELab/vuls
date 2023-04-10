@@ -3,11 +3,11 @@ package root
 import (
 	"github.com/spf13/cobra"
 
-	convertCmd "github.com/future-architect/vuls/contrib/snmp2cpe/pkg/cmd/convert"
-	v1Cmd "github.com/future-architect/vuls/contrib/snmp2cpe/pkg/cmd/v1"
-	v2cCmd "github.com/future-architect/vuls/contrib/snmp2cpe/pkg/cmd/v2c"
-	v3Cmd "github.com/future-architect/vuls/contrib/snmp2cpe/pkg/cmd/v3"
-	versionCmd "github.com/future-architect/vuls/contrib/snmp2cpe/pkg/cmd/version"
+	convertCmd "github.com/cvelab/vuls/contrib/snmp2cpe/pkg/cmd/convert"
+	v1Cmd "github.com/cvelab/vuls/contrib/snmp2cpe/pkg/cmd/v1"
+	v2cCmd "github.com/cvelab/vuls/contrib/snmp2cpe/pkg/cmd/v2c"
+	v3Cmd "github.com/cvelab/vuls/contrib/snmp2cpe/pkg/cmd/v3"
+	versionCmd "github.com/cvelab/vuls/contrib/snmp2cpe/pkg/cmd/version"
 )
 
 // NewCmdRoot ...

@@ -1,6 +1,6 @@
 package oval
 
-import "github.com/future-architect/vuls/models"
+import "github.com/cvelab/vuls/models"
 
 // Pseudo is OVAL client for Windows, FreeBSD and Pseudo
 type Pseudo struct {

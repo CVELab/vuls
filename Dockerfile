@@ -6,7 +6,7 @@ RUN apk add --no-cache \
         gcc \
         musl-dev
 
-ENV REPOSITORY github.com/future-architect/vuls
+ENV REPOSITORY github.com/cvelab/vuls
 COPY . $GOPATH/src/$REPOSITORY
 RUN cd $GOPATH/src/$REPOSITORY && make install
 

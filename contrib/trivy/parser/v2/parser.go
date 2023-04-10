@@ -9,9 +9,9 @@ import (
 	"github.com/aquasecurity/trivy/pkg/types"
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/constant"
-	"github.com/future-architect/vuls/contrib/trivy/pkg"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/constant"
+	"github.com/cvelab/vuls/contrib/trivy/pkg"
+	"github.com/cvelab/vuls/models"
 )
 
 // ParserV2 is a parser for scheme v2

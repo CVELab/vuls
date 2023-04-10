@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/future-architect/vuls/logging"
+	"github.com/cvelab/vuls/logging"
 	exploitmodels "github.com/vulsio/go-exploitdb/models"
 )
 

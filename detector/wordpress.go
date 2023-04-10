@@ -12,11 +12,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/errof"
-	"github.com/future-architect/vuls/logging"
-	"github.com/future-architect/vuls/models"
-	"github.com/future-architect/vuls/util"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/errof"
+	"github.com/cvelab/vuls/logging"
+	"github.com/cvelab/vuls/models"
+	"github.com/cvelab/vuls/util"
 	version "github.com/hashicorp/go-version"
 	"golang.org/x/xerrors"
 )

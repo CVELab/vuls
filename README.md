@@ -2,10 +2,10 @@
 # Vuls: VULnerability Scanner
 
 [![Slack](https://img.shields.io/badge/slack-join-blue.svg)](http://goo.gl/forms/xm5KFo35tu)
-[![License](https://img.shields.io/github/license/future-architect/vuls.svg?style=flat-square)](https://github.com/future-architect/vuls/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/future-architect/vuls.svg?branch=master)](https://travis-ci.org/future-architect/vuls)
-[![Go Report Card](https://goreportcard.com/badge/github.com/future-architect/vuls)](https://goreportcard.com/report/github.com/future-architect/vuls)
-[![Contributors](https://img.shields.io/github/contributors/future-architect/vuls.svg)](https://github.com/future-architect/vuls/graphs/contributors)
+[![License](https://img.shields.io/github/license/cvelab/vuls.svg?style=flat-square)](https://github.com/cvelab/vuls/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/cvelab/vuls.svg?branch=master)](https://travis-ci.org/cvelab/vuls)
+[![Go Report Card](https://goreportcard.com/badge/github.com/cvelab/vuls)](https://goreportcard.com/report/github.com/cvelab/vuls)
+[![Contributors](https://img.shields.io/github/contributors/cvelab/vuls.svg)](https://github.com/cvelab/vuls/graphs/contributors)
 
 ![Vuls-logo](img/vuls_logo.png)
 
@@ -183,7 +183,7 @@ For more information such as Installation, Tutorial, Usage, visit [vuls.io](http
 
 ## Authors
 
-kotakanbe ([@kotakanbe](https://twitter.com/kotakanbe)) created vuls and [these fine people](https://github.com/future-architect/vuls/graphs/contributors) have contributed.
+kotakanbe ([@kotakanbe](https://twitter.com/kotakanbe)) created vuls and [these fine people](https://github.com/cvelab/vuls/graphs/contributors) have contributed.
 
 ## Contribute
 
@@ -202,4 +202,4 @@ see [vulsdoc](https://vuls.io/docs/en/how-to-contribute.html)
 
 ## License
 
-Please see [LICENSE](https://github.com/future-architect/vuls/blob/master/LICENSE).
+Please see [LICENSE](https://github.com/cvelab/vuls/blob/master/LICENSE).

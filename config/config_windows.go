@@ -11,8 +11,8 @@ import (
 	"github.com/asaskevich/govalidator"
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/constant"
-	"github.com/future-architect/vuls/logging"
+	"github.com/cvelab/vuls/constant"
+	"github.com/cvelab/vuls/logging"
 )
 
 // Version of Vuls

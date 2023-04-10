@@ -18,9 +18,9 @@ import (
 	"golang.org/x/exp/slices"
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/logging"
-	"github.com/future-architect/vuls/models"
-	"github.com/future-architect/vuls/util"
+	"github.com/cvelab/vuls/logging"
+	"github.com/cvelab/vuls/models"
+	"github.com/cvelab/vuls/util"
 	gostmodels "github.com/vulsio/gost/models"
 )
 

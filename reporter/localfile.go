@@ -9,8 +9,8 @@ import (
 	"github.com/CycloneDX/cyclonedx-go"
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/models"
-	"github.com/future-architect/vuls/reporter/sbom"
+	"github.com/cvelab/vuls/models"
+	"github.com/cvelab/vuls/reporter/sbom"
 )
 
 // LocalFileWriter writes results to a local file.

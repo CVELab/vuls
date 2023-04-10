@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"compress/gzip"
 
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/models"
 )
 
 // ResultWriter Interface

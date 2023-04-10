@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/models"
 )
 
 func TestSyslogWriterEncodeSyslog(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/future-architect/vuls
+module github.com/cvelab/vuls
 
 go 1.20
 

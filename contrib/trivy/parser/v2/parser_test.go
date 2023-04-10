@@ -6,7 +6,7 @@ import (
 	"github.com/d4l3k/messagediff"
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/models"
 )
 
 func TestParse(t *testing.T) {

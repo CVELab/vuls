@@ -12,13 +12,13 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/detector"
-	"github.com/future-architect/vuls/gost"
-	"github.com/future-architect/vuls/logging"
-	"github.com/future-architect/vuls/models"
-	"github.com/future-architect/vuls/reporter"
-	"github.com/future-architect/vuls/scanner"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/detector"
+	"github.com/cvelab/vuls/gost"
+	"github.com/cvelab/vuls/logging"
+	"github.com/cvelab/vuls/models"
+	"github.com/cvelab/vuls/reporter"
+	"github.com/cvelab/vuls/scanner"
 )
 
 // VulsHandler is used for vuls server mode

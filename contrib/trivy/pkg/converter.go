@@ -7,7 +7,7 @@ import (
 	"github.com/aquasecurity/trivy/pkg/fanal/analyzer/os"
 	"github.com/aquasecurity/trivy/pkg/types"
 
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/models"
 )
 
 // Convert :

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/future-architect/vuls/constant"
+	"github.com/cvelab/vuls/constant"
 )
 
 func TestExcept(t *testing.T) {

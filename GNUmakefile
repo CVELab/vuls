@@ -17,7 +17,7 @@ PKGS = $(shell go list ./...)
 VERSION := $(shell git describe --tags --abbrev=0)
 REVISION := $(shell git rev-parse --short HEAD)
 BUILDTIME := $(shell date "+%Y%m%d_%H%M%S")
-LDFLAGS := -X 'github.com/future-architect/vuls/config.Version=$(VERSION)' -X 'github.com/future-architect/vuls/config.Revision=build-$(BUILDTIME)_$(REVISION)'
+LDFLAGS := -X 'github.com/cvelab/vuls/config.Version=$(VERSION)' -X 'github.com/cvelab/vuls/config.Revision=build-$(BUILDTIME)_$(REVISION)'
 GO := GO111MODULE=on go
 CGO_UNABLED := CGO_ENABLED=0 go
 GO_OFF := GO111MODULE=off go

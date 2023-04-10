@@ -12,11 +12,11 @@ import (
 	"github.com/google/subcommands"
 	"github.com/k0kubun/pp"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/detector"
-	"github.com/future-architect/vuls/logging"
-	"github.com/future-architect/vuls/models"
-	"github.com/future-architect/vuls/reporter"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/detector"
+	"github.com/cvelab/vuls/logging"
+	"github.com/cvelab/vuls/models"
+	"github.com/cvelab/vuls/reporter"
 )
 
 // ReportCmd is subcommand for reporting

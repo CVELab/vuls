@@ -15,8 +15,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3"
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/models"
 )
 
 // S3Writer writes results to S3

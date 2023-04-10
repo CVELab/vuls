@@ -18,9 +18,9 @@ import (
 	"golang.org/x/text/transform"
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/constant"
-	"github.com/future-architect/vuls/logging"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/constant"
+	"github.com/cvelab/vuls/logging"
 )
 
 type execResult struct {

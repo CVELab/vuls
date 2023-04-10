@@ -4,7 +4,7 @@
 package gost
 
 import (
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/models"
 )
 
 // Pseudo is Gost client except for RedHat family, Debian, Ubuntu and Windows

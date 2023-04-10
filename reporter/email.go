@@ -10,8 +10,8 @@ import (
 
 	sasl "github.com/emersion/go-sasl"
 	smtp "github.com/emersion/go-smtp"
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/models"
 	"golang.org/x/xerrors"
 )
 

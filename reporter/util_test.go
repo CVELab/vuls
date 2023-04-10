@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/models"
 	"github.com/k0kubun/pp"
 )
 

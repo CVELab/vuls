@@ -3,9 +3,9 @@ package scanner
 import (
 	"testing"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/constant"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/constant"
+	"github.com/cvelab/vuls/models"
 )
 
 func TestIsRunningKernelSUSE(t *testing.T) {

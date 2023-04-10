@@ -7,9 +7,9 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/constant"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/constant"
+	"github.com/cvelab/vuls/models"
 )
 
 func TestViaHTTP(t *testing.T) {

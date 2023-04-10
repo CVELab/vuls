@@ -27,8 +27,8 @@ jobs:
             -e CGO_ENABLED=1 \
             -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
             -v /var/run/docker.sock:/var/run/docker.sock \
-            -v `pwd`:/go/src/github.com/future-architect/vuls \
-            -w /go/src/github.com/future-architect/vuls \
+            -v `pwd`:/go/src/github.com/cvelab/vuls \
+            -w /go/src/github.com/cvelab/vuls \
             ghcr.io/goreleaser/goreleaser-cross:v1.20 \
             release --clean
 

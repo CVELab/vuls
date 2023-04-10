@@ -9,8 +9,8 @@ import (
 	storage "github.com/Azure/azure-sdk-for-go/storage"
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/models"
 )
 
 // AzureBlobWriter writes results to AzureBlob

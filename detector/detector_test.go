@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/models"
 	cvemodels "github.com/vulsio/go-cve-dictionary/models"
 )
 

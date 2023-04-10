@@ -19,8 +19,8 @@ import (
 	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/language/python/poetry"
 	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/language/ruby/bundler"
 	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/language/rust/cargo"
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/models"
 )
 
 func TestParseDockerPs(t *testing.T) {

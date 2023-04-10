@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/logging"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/logging"
 )
 
 // GenWorkers generates goroutine

@@ -7,8 +7,8 @@ import (
 
 	"context"
 
-	"github.com/future-architect/vuls/config"
-	commands "github.com/future-architect/vuls/subcmds"
+	"github.com/cvelab/vuls/config"
+	commands "github.com/cvelab/vuls/subcmds"
 	"github.com/google/subcommands"
 )
 

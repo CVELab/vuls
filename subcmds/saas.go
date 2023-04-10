@@ -6,11 +6,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/logging"
-	"github.com/future-architect/vuls/models"
-	"github.com/future-architect/vuls/reporter"
-	"github.com/future-architect/vuls/saas"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/logging"
+	"github.com/cvelab/vuls/models"
+	"github.com/cvelab/vuls/reporter"
+	"github.com/cvelab/vuls/saas"
 	"github.com/google/subcommands"
 	"github.com/k0kubun/pp"
 )

@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/future-architect/vuls/cache"
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/constant"
-	"github.com/future-architect/vuls/logging"
-	"github.com/future-architect/vuls/models"
-	"github.com/future-architect/vuls/util"
+	"github.com/cvelab/vuls/cache"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/constant"
+	"github.com/cvelab/vuls/logging"
+	"github.com/cvelab/vuls/models"
+	"github.com/cvelab/vuls/util"
 	version "github.com/knqyf263/go-deb-version"
 	"golang.org/x/xerrors"
 )
@@ -671,7 +671,7 @@ func (o *debian) deleteTempChangelogDir(tmpClogPath string) error {
 
 // DetectedCveID has CveID, Confidence and DetectionMethod fields
 // LenientMatching will be true if this vulnerability is not detected by accurate version matching.
-// see https://github.com/future-architect/vuls/pull/328
+// see https://github.com/cvelab/vuls/pull/328
 type DetectedCveID struct {
 	CveID      string
 	Confidence models.Confidence

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/models"
 	gostmodels "github.com/vulsio/gost/models"
 )
 

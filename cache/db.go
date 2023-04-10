@@ -3,8 +3,8 @@ package cache
 import (
 	"time"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/models"
 )
 
 // DB has a cache instance

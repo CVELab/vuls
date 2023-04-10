@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	rootCmd "github.com/future-architect/vuls/contrib/snmp2cpe/pkg/cmd/root"
+	rootCmd "github.com/cvelab/vuls/contrib/snmp2cpe/pkg/cmd/root"
 )
 
 func main() {

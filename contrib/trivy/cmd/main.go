@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/contrib/trivy/parser"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/contrib/trivy/parser"
 	"github.com/spf13/cobra"
 )
 

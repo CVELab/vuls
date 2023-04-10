@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff"
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/logging"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/logging"
+	"github.com/cvelab/vuls/models"
 	"github.com/nlopes/slack"
 	"github.com/parnurzeal/gorequest"
 	"golang.org/x/xerrors"

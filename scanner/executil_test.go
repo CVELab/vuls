@@ -3,7 +3,7 @@ package scanner
 import (
 	"testing"
 
-	"github.com/future-architect/vuls/config"
+	"github.com/cvelab/vuls/config"
 )
 
 func TestDecorateCmd(t *testing.T) {

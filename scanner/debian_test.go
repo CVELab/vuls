@@ -6,11 +6,11 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/future-architect/vuls/cache"
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/constant"
-	"github.com/future-architect/vuls/logging"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/cache"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/constant"
+	"github.com/cvelab/vuls/logging"
+	"github.com/cvelab/vuls/models"
 	"github.com/k0kubun/pp"
 )
 
@@ -192,7 +192,7 @@ systemd (228-5) unstable; urgency=medium`,
 			},
 		},
 		{
-			//5 https://github.com/future-architect/vuls/pull/350
+			//5 https://github.com/cvelab/vuls/pull/350
 			[]string{
 				"tar",
 				"1.27.1-2+b1",

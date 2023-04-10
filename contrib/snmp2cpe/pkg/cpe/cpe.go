@@ -6,8 +6,8 @@ import (
 
 	"github.com/hashicorp/go-version"
 
-	"github.com/future-architect/vuls/contrib/snmp2cpe/pkg/snmp"
-	"github.com/future-architect/vuls/contrib/snmp2cpe/pkg/util"
+	"github.com/cvelab/vuls/contrib/snmp2cpe/pkg/snmp"
+	"github.com/cvelab/vuls/contrib/snmp2cpe/pkg/util"
 )
 
 // Convert ...

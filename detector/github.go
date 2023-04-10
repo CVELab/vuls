@@ -12,8 +12,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/future-architect/vuls/errof"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/errof"
+	"github.com/cvelab/vuls/models"
 	"golang.org/x/oauth2"
 )
 

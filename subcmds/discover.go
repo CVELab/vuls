@@ -8,8 +8,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/logging"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/logging"
 	"github.com/google/subcommands"
 
 	ps "github.com/kotakanbe/go-pingscanner"

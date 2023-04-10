@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	c "github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/models"
+	c "github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/models"
 )
 
 func mockGenerateFunc() (string, error) {

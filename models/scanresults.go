@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/constant"
-	"github.com/future-architect/vuls/cwe"
-	"github.com/future-architect/vuls/logging"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/constant"
+	"github.com/cvelab/vuls/cwe"
+	"github.com/cvelab/vuls/logging"
 )
 
 // ScanResults is a slide of ScanResult
@@ -357,7 +357,7 @@ func (r *ScanResult) CheckEOL() {
 	eol, found := config.GetEOL(r.Family, r.Release)
 	if !found {
 		r.Warnings = append(r.Warnings,
-			fmt.Sprintf("Failed to check EOL. Register the issue to https://github.com/future-architect/vuls/issues with the information in `Family: %s Release: %s`",
+			fmt.Sprintf("Failed to check EOL. Register the issue to https://github.com/cvelab/vuls/issues with the information in `Family: %s Release: %s`",
 				r.Family, r.Release))
 		return
 	}

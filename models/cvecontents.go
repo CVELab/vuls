@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/future-architect/vuls/constant"
+	"github.com/cvelab/vuls/constant"
 )
 
 // CveContents has CveContent

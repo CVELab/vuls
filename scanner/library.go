@@ -2,7 +2,7 @@ package scanner
 
 import (
 	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/models"
 )
 
 func convertLibWithScanner(apps []types.Application) ([]models.LibraryScanner, error) {

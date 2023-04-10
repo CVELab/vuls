@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/models"
-	"github.com/future-architect/vuls/util"
+	"github.com/cvelab/vuls/config"
+	"github.com/cvelab/vuls/models"
+	"github.com/cvelab/vuls/util"
 )
 
 // ChatWorkWriter send report to ChatWork

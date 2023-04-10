@@ -3,7 +3,7 @@ package reporter
 import (
 	"fmt"
 
-	"github.com/future-architect/vuls/models"
+	"github.com/cvelab/vuls/models"
 )
 
 // StdoutWriter write to stdout
